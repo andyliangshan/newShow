@@ -2,151 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70835053-6ab8-4d81-8290-2a8a49ced58c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/case/case_img9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/ball-city.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/c9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/footer-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/index-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/index-brand.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/index-education.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/index-relate.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/index_producet2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/index_producet3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/index_product1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/main/wechat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/instru.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/productStand.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_instr_img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_instr_img2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_instr_img3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_instr_img4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_instr_img5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_instr_instructure.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_preimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_vide_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/product_video9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/pruduct_detail_im1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/pruduct_detail_im2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/pruduct_detail_im3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/pruduct_detail_im4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/pruduct_detail_im5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/pruduct_detail_loadiing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/pruduct_detail_top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/product/wechat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/service/about_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/service/about_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/service/about_img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/service/service_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/service/service_lunbo_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/service/service_showimg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/www" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/ZoomPic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery-1.12.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery.placeholder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/productDetail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/productInstru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/productList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/js/ie10-viewport-bug-workaround.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery.cxscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery.twbsPagination.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery.xdomainrequest.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/md5-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/about.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/product.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/components/foot.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/components/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/productInstru.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/productdetail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/productlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/service.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webpackDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -205,8 +62,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="552">
+              <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -247,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/javascripts/index.js" />
@@ -275,6 +131,7 @@
         <option value="$PROJECT_DIR$/routes/list.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -285,8 +142,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="25" />
+    <option name="x" value="252" />
+    <option name="y" value="63" />
     <option name="width" value="1920" />
     <option name="height" value="1092" />
   </component>
@@ -467,15 +324,15 @@
       <workItem from="1511269415155" duration="21000" />
       <workItem from="1511322216272" duration="177000" />
       <workItem from="1512212088119" duration="207000" />
-      <workItem from="1512212815499" duration="18851000" />
+      <workItem from="1512212815499" duration="19148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19256000" />
+    <option name="totallyTimeSpent" value="19553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="25" width="1920" height="1092" extended-state="0" />
+    <frame x="252" y="63" width="1920" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13744076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -559,14 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -878,10 +727,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="552">
+          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
           <folding />
         </state>
       </provider>
