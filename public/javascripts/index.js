@@ -18,4 +18,13 @@ $(function () {
     hoverClass('.eduGongguan .con', '.box', '.backtobg');
     hoverClass('.produceInstru .con', '.box', '.backtobg');
 
+    // bannert添加class
+    function getAddClass(ele, classname) {
+        $(ele).addClass(classname);
+    }
+    getAddClass('.p1 .lineto', 'fadeIn');
+    getAddClass('.p1 .title', 'bounceInLeft');
+    getAddClass('.p1 .desc', 'bounceInLeft');
+
+
 });

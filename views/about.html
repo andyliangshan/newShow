@@ -35,38 +35,7 @@
 <body>
 <%- include('components/head.html', {page: 'about'})%>
 <!--全屏轮播banner-->
-<div id="carousel-example-generic" class="carousel slide my-slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <a target="_blank" href="#">
-                <img src="/public/images/service/service_lunbo_img1.jpg" alt="" style="width: 1920px; max-width: 1920px; margin-left: -77.5px;">
-                <p>
-                    <span class="lineto bounceInLeft"></span>
-                    <span class="title bounceInLeft">服务介绍</span>
-                    <span class="desc bounceInLeft">来自国外的专业技术团队，提供一站式集成个性服务方案。</span>
-                    <span class="desc bounceInLeft">打造无盲点的视觉效果展示，享受不一样的视觉之美。</span>
-                </p>
-            </a>
-        </div>
-        <div class="item">
-            <a target="_blank" href="#">
-                <img src="/public/images/main/index-banner.jpg" alt="" style="width: 1920px; max-width: 1920px; margin-left: -77.5px;">
-                <p>
-                    <span class="lineto bounceInDown"></span>
-                    <span class="title bounceInLeft">服务介绍</span>
-                    <span class="desc bounceInLeft">来自国外的专业技术团队，提供一站式集成个性服务方案。</span>
-                    <span class="desc bounceInLeft">打造无盲点的视觉效果展示，享受不一样的视觉之美。</span>
-                </p>
-            </a>
-        </div>
-    </div>
-</div>
+<%- include('components/banner.html')%>
 <!--全屏轮播banner-->
 <!--联系我们-->
 <div class="relatebox">

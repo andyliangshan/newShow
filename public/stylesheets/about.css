@@ -121,6 +121,7 @@
     overflow: hidden;
     font-size: 48px;
     color: #313131;
+    margin-top: 15px;
 }
 .servicebox .serviceInfo-cont .serviceInfo-cont-line {
     width: 100%;

@@ -1,35 +1,6 @@
 @import "reset.css";
 /**轮播样式**/
-.carousel-inner .item p {
-    display: inline-block;
-    position: absolute;
-    left: 12%;
-    top: 35%;
-}
-.carousel-inner .item p span {
-    display: block;
-    text-align: left;
-    color: #fff;
-    font-size: 25px;
-    font-weight: bolder;
-    clear: both;
-    overflow: hidden;
-}
-.carousel-inner .item p span.lineto {
-    height: 4px;
-    width: 18%;
-    background: #f6270b;
-    margin-bottom: 20px;
-    clear: both;
-    overflow: hidden;
-}
-.carousel-inner .item p span.title {
-    font-size: 50px;
-    margin-bottom: 25px;
-}
-.carousel-inner .item p span.desc {
-    margin-bottom: 15px;
-}
+
 /**轮播样式**/
 .eduGongguan {
     clear: both;
@@ -216,6 +187,9 @@
         }
     }
     /*全部-页脚*/
+    .carousel-inner .item .p2 {
+        width: 100%;
+    }
 }
 /*大于992px以上固定宽度为970px md >= 992px */
 @media (min-width: 1200px) {
@@ -230,5 +204,32 @@
     }
     .eduGongguan .con .box, .produceInstru .con .box {
         top: 50%;
+    }
+    .carousel-inner .item .p2 {
+        width: 100%;
+        margin-top: 35%;
+    }
+    .carousel-inner .item .backbg {
+        width: 100%;
+        height: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .carousel-inner .item .p2 {
+        width: 100%;
+        margin-top: 30%;
+    }
+    .carousel-inner .item .backbg {
+        width: 100%;
+        height: 50%;
+    }
+    .navbar>.container .navbar-brand {
+        padding: 0 !important;
+    }
+    .navbar>.container .navbar-brand img {
+        max-width: 210px !important;
+    }
+    .navbar-nav>li:last-child {
+        display: block!important;
     }
 }

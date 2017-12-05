@@ -24,7 +24,7 @@ router.get('/instru', function(req, res, next) {
     }
 });
 
-router.get('/list', function(req, res, next) {
+router.get('/case', function(req, res, next) {
     try {
         res.render('productlist', {
             title: '产品列表',
@@ -57,6 +57,16 @@ router.get('/about', function(req, res, next) {
 router.get('/service', function(req, res, next) {
     try {
         res.render('service', {
+            title: '服务介绍',
+        });
+    } catch (err) {
+        next(err);
+    }
+});
+
+router.get('/test', function(req, res, next) {
+    try {
+        res.render('serviceInstru', {
             title: '服务介绍',
         });
     } catch (err) {

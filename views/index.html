@@ -24,7 +24,7 @@
     <!-- 页面按原比例显示 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
     <link rel="stylesheet" type="text/css" href="/public/libs/bootstrap/css/bootstrap.min.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="/public/stylesheets/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="/public/stylesheets/animation.css" />
     <link rel="stylesheet" type="text/css" href="/public/stylesheets/main.css" />
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -35,38 +35,7 @@
 <body>
 <%- include('components/head.html', {page: 'index'})%>
 <!--全屏轮播banner-->
-<div id="carousel-example-generic" class="carousel slide my-slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <a target="_blank" href="#">
-                <img src="/public/images/main/index-banner.jpg" alt="" style="width: 1920px; max-width: 1920px; margin-left: -77.5px;">
-                <p>
-                    <span class="lineto bounceInLeft"></span>
-                    <span class="title bounceInLeft">移动空间</span>
-                    <span class="desc bounceInLeft">一次冲击全球的 移动多媒体</span>
-                    <span class="desc bounceInLeft">一个沉浸式体验、多维感知、愉悦新颖的空间。</span>
-                </p>
-            </a>
-        </div>
-        <div class="item">
-            <a target="_blank" href="#">
-                <img src="/public/images/main/index-banner.jpg" alt="" style="width: 1920px; max-width: 1920px; margin-left: -77.5px;">
-                <p>
-                    <span class="lineto bounceInDown"></span>
-                    <span class="title bounceInDown">移动空间</span>
-                    <span class="desc bounceInDown">一次冲击全球的 移动多媒体</span>
-                    <span class="desc bounceInDown">一个沉浸式体验、多维感知、愉悦新颖的空间。</span>
-                </p>
-            </a>
-        </div>
-    </div>
-</div>
+<%- include('components/banner.html')%>
 <!--全屏轮播banner-->
 <!--品牌 教育 公关-->
 <div class="eduGongguan">

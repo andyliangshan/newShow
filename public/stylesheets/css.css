@@ -1,0 +1,141 @@
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0}mark{color:#000;background:#ff0}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}hr{height:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}pre{overflow:auto}code,kbd,pre,samp{font-size:1em}button,input,optgroup,select,textarea{margin:0;font:inherit;color:inherit}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto}optgroup{font-weight:700}table{border-spacing:0;border-collapse:collapse}td,th{padding:0}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "微软雅黑" ;
+    -webkit-overflow-scrolling : touch;
+    overflow: auto;
+}
+.firstdays {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+.firstdays img {
+    width: 100%;
+    vertical-align: middle;
+}
+.showOther {
+    display: none;
+    width: 100%;
+    -webkit-overflow-scrolling : touch;
+    /*-webkit-transform-style: preserve-3d;*/
+    /*transform-style: preserve-3d;*/
+}
+.showOther .other {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 100%;
+    display: none;
+    /*-webkit-transform: translateZ(0);*/
+    /*-moz-transform: translateZ(0);*/
+    /*-ms-transform: translateZ(0);*/
+    /*-o-transform: translateZ(0);*/
+    /*transform: translateZ(0);*/
+    /*-webkit-backface-visibility: hidden;*/
+    /*backface-visibility: hidden;*/
+    /*-webkit-perspective: 1000px;*/
+    /*perspective: 1000px;*/
+    /*position: absolute;*/
+}
+.showOther .other img {
+    width: 100%;
+    vertical-align: middle;
+}
+.showOther .others16 {
+    position: relative;
+}
+.showOther .others16 p {
+    position: absolute;
+    padding: 0 18px;
+    bottom: 46px;
+    text-align: center;
+    width: 90%;
+}
+.showOther .others16 p span {
+    width: 20%;
+    display: inline-block;
+    height: 46px;
+    float: left;
+}
+.showOther .others16 p span img {
+    height: 46px;
+    display: none;
+    vertical-align: middle;
+}
+.showOther .others16 p .sp1 img {
+    width: 30px;
+}
+.showOther .others16 p .sp2 img {
+    width: 48px;
+}
+.showOther .others16 p .sp3 img {
+    width: 44px;
+}
+.showOther .others16 p .sp4 img {
+    width: 36px;
+}
+.showOther .others16 p .sp5 img {
+    width: 25px;
+}
+
+.showOther .others24 {
+    position: relative;
+}
+.showOther .others24 p {
+    position: absolute;
+    padding: 0 18px;
+    bottom: 30px;
+    text-align: center;
+    width: 90%;
+}
+.showOther .others24 p span {
+    width: 20%;
+    display: inline-block;
+    height: 89px;
+    float: left;
+}
+.showOther .others24 p span img {
+    height: 89px;
+    display: none;
+    vertical-align: middle;
+}
+.showOther .others24 p .sp1 img {
+    width: 73px;
+}
+.showOther .others24 p .sp2 img {
+    width: 73px;
+}
+.showOther .others24 p .sp3 img {
+    width: 74px;
+}
+.showOther .others24 p .sp4 img {
+    width: 74px;
+}
+.showOther .others24 p .sp5 img {
+    width: 73px;
+}
+.fixedbot {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+}
+.fixedbot img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.img-hole {
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 0;
+    width: 100%;
+    height: 50px;
+}
