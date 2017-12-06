@@ -130,6 +130,7 @@
                     var ele = $('[data-idx=' + (++globalCurrentShowEleIdx) + ']');
                     $ch.height($ch.height() + ele.height() + 12);
                     $('body,html').animate({ scrollTop: $ch.height() }, 300, function () {
+//                        ele.fadeIn(300).addClass('a-fadeinB');
                         ele.css('display', 'block');
                         ele.addClass('a-fadeinB');
 //                        touch.isMove = false;
@@ -145,11 +146,11 @@
                 if (v < 1) {
                     var ele = $('[data-idx=' + (++globalCurrentShowEleIdx) + ']');
                     $ch.height($ch.height() + ele.height() + 12);
-                    $('body,html').animate({ scrollTop: $ch.height() }, 100, function () {
-                        ele.fadeIn(200).addClass('a-fadeinB');
+                    $('body,html').animate({ scrollTop: $ch.height() }, 300, function () {
+//                        ele.fadeIn(300).addClass('a-fadeinB');
                         
-//                        ele.css('display', 'block');
-//                        ele.addClass('a-fadeinB');
+                        ele.css('display', 'block');
+                        ele.addClass('a-fadeinB');
 //                        touch.isMove = false;
                     });
 
