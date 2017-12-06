@@ -58,9 +58,10 @@
 .boxborder-title h1 {
     clear: both;
     overflow: hidden;
-    padding-top: 10px;
+    padding-top: 15px;
     color: #1b1b1b;
-    font-size: 48px;
+    font-size: 45px;
+    margin: 0;
 }
 .boxborder-title-line {
     text-align: center;
@@ -69,10 +70,10 @@
     vertical-align: middle;
 }
 .boxborder-desc {
-    width: 80%;
+    width: 85%;
     margin: 90px auto 0;
     color: #959595;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     padding-bottom: 150px;
     text-align: left;
@@ -113,7 +114,7 @@
     clear: both;
     overflow: hidden;
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 22px;
     color: #959595;
 }
 .standrad-table {
@@ -172,7 +173,8 @@
     overflow: hidden;
     padding-top: 10px;
     color: #1b1b1b;
-    font-size: 48px;
+    font-size: 45px;
+    margin: 0;
 }
 .movieInstru-title-line {
     text-align: center;
@@ -183,8 +185,8 @@
 .movieInstru-info-desc {
     width: 90%;
     margin: 60px auto 0;
-    color: #313131;
-    font-size: 20px;
+    color: #959595;
+    font-size: 16px;
     line-height: 30px;
     text-align: left;
 }
@@ -216,36 +218,6 @@
     transform: matrix(1.04,0,0,1.04,0,0);
 }
 /**轮播样式**/
-.carousel-inner .item p {
-    display: inline-block;
-    position: absolute;
-    left: 12%;
-    top: 35%;
-}
-.carousel-inner .item p span {
-    display: block;
-    text-align: left;
-    color: #fff;
-    font-size: 25px;
-    font-weight: bolder;
-    clear: both;
-    overflow: hidden;
-}
-.carousel-inner .item p span.lineto {
-    height: 4px;
-    width: 18%;
-    background: #f6270b;
-    margin-bottom: 20px;
-    clear: both;
-    overflow: hidden;
-}
-.carousel-inner .item p span.title {
-    font-size: 50px;
-    margin-bottom: 25px;
-}
-.carousel-inner .item p span.desc {
-    margin-bottom: 15px;
-}
 /**轮播样式**/
 .selcase {
     clear: both;
@@ -322,6 +294,9 @@
 .caselist-cont .img, .caselist-cont .firstbig {
     position: relative;
     text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 .caselist-cont .img img, .caselist-cont .firstbig img {
     vertical-align: middle;
@@ -339,7 +314,7 @@
     clear: both;
     overflow: hidden;
     margin-bottom: 30px;
-    font-size: 21px;
+    font-size: 18px;
 }
 .caselist-cont .img .showtext p, .caselist-cont .firstbig .showtext p {
     clear: both;
@@ -356,6 +331,7 @@
     left: 0;
     background: #ad000e;
 }
+
 .listcont li {
     padding: 0;
 }

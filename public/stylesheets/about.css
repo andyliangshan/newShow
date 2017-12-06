@@ -1,35 +1,5 @@
 @import "reset.css";
 /**轮播样式**/
-.carousel-inner .item p {
-    display: inline-block;
-    position: absolute;
-    right: 14%;
-    top: 35%;
-}
-.carousel-inner .item p span {
-    display: block;
-    text-align: left;
-    color: #fff;
-    font-size: 25px;
-    font-weight: bolder;
-    clear: both;
-    overflow: hidden;
-}
-.carousel-inner .item p span.lineto {
-    height: 4px;
-    width: 18%;
-    background: #f6270b;
-    margin-bottom: 20px;
-    clear: both;
-    overflow: hidden;
-}
-.carousel-inner .item p span.title {
-    font-size: 50px;
-    margin-bottom: 25px;
-}
-.carousel-inner .item p span.desc {
-    margin-bottom: 15px;
-}
 /**轮播样式**/
 .relatebox {
     clear: both;
@@ -119,9 +89,10 @@
 .servicebox .serviceInfo-cont h1 {
     clear: both;
     overflow: hidden;
-    font-size: 48px;
+    font-size: 45px;
     color: #313131;
-    margin-top: 15px;
+    padding-top: 15px;
+    margin: 0;
 }
 .servicebox .serviceInfo-cont .serviceInfo-cont-line {
     width: 100%;
@@ -138,7 +109,7 @@
     line-height: 30px;
     text-align: left;
     color: #959595;
-    font-size: 20px;
+    font-size: 16px;
 }
 .servicebox .servicebox-img {
     clear: both;
@@ -182,14 +153,14 @@
 .serviceArt-list .col-sm-4, .serviceArt-list .col-md-3 {
     width: 20%;
     text-align: center;
-    height: 150px;
+    height: 170px;
     position: relative;
     margin-bottom: 20px;
 }
 .serviceArt-list .serviceArt-list-desc {
-    font-size: 12px;
-    text-align: center;
-    line-height: 20px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
     color: #fff;
     width: 100%;
 }
@@ -205,6 +176,9 @@
     bottom: 0;
 }
 
+.relateinfo-text {
+    font-size: 16px;
+}
 
 /*大于992px以上固定宽度为970px md >= 992px */
 @media (min-width: 992px){
