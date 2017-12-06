@@ -464,6 +464,7 @@
     position: relative;
     padding: 50px 0 0 60px;
     background: #fff;
+    padding-left: 4% !important;
 }
 .contdetaildesc  h2 {
     font-size: 24px;
@@ -507,12 +508,9 @@
     height: 8px;
     background: #2d2d2d;
     left: 30px;
-    top: 45px;
+    top: 30px;
 }
 
-.coblist {
-    padding-left: 6% !important;
-}
 .loadmore-case {
     clear: both;
     overflow: hidden;
