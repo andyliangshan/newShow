@@ -4,6 +4,7 @@
     <list default="true" id="70835053-6ab8-4d81-8290-2a8a49ced58c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/product.css" afterPath="$PROJECT_DIR$/public/stylesheets/product.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/productInstru.html" afterPath="$PROJECT_DIR$/views/productInstru.html" />
     </list>
     <ignored path="webpackDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +80,8 @@
       <file leaf-file-name="product.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/product.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+            <state relative-caret-position="561">
+              <caret line="525" column="1" selection-start-line="525" selection-start-column="1" selection-end-line="525" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -109,8 +110,8 @@
       <file leaf-file-name="productInstru.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/productInstru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
+            <state relative-caret-position="363">
+              <caret line="75" column="63" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -163,12 +164,12 @@
         <option value="$USER_HOME$/Downloads/serviceInstru/serviceInstru.html" />
         <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/productInstru.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/productdetail.html" />
         <option value="$PROJECT_DIR$/views/productlist.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/about.css" />
+        <option value="$PROJECT_DIR$/views/productInstru.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/product.css" />
       </list>
     </option>
@@ -180,8 +181,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="28" />
+    <option name="x" value="33" />
+    <option name="y" value="65" />
     <option name="width" value="1816" />
     <option name="height" value="1080" />
   </component>
@@ -436,15 +437,15 @@
       <workItem from="1511269415155" duration="21000" />
       <workItem from="1511322216272" duration="177000" />
       <workItem from="1512212088119" duration="207000" />
-      <workItem from="1512212815499" duration="73138000" />
+      <workItem from="1512212815499" duration="75093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73543000" />
+    <option name="totallyTimeSpent" value="75498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="28" width="1816" height="1080" extended-state="0" />
+    <frame x="33" y="65" width="1816" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1454039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -870,14 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/productInstru.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -886,10 +879,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/productInstru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="75" column="63" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/product.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+        <state relative-caret-position="561">
+          <caret line="525" column="1" selection-start-line="525" selection-start-column="1" selection-end-line="525" selection-end-column="1" />
           <folding />
         </state>
       </provider>
