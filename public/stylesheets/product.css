@@ -219,6 +219,9 @@
     -moz-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 .movielist div:hover img {
     -webkit-transform: matrix(1.04,0,0,1.04,0,0);
