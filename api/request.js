@@ -9,7 +9,7 @@ var omitDeep = function(obj, key, depth) {
             omitDeep(obj[k], key, depth - 1);
         }
     }
-}
+};
 
 const generateError = (err) => {
   return Object.assign(err.response ? err.response.body : {code: err.code}, err.response ? err.response.error : {status: 501, message: 'timeout'}, {raw: err});
@@ -17,13 +17,13 @@ const generateError = (err) => {
 
 const timeout = 120 * 1000;
 
-export default {
+const getMethod = {
   //  isUseConfigApiRoot： 是否使用apiroot 进行地址拼接
   get: (path, query, isUseConfigApiRoot) => new Promise((resolve, reject) => {
     const req = request
-      .get(isUseConfigApiRoot ? path : config.apiRoot + path)
-      .timeout(timeout)
-      .accept('application/json');
+        .get(isUseConfigApiRoot ? path : config.apiRoot + path)
+        .timeout(timeout)
+        .accept('application/json');
 
     if (query) {
       req.query(query);
@@ -40,9 +40,9 @@ export default {
 
   put: (path, data, query) => new Promise((resolve, reject) => {
     const req = request.put(config.apiRoot + path)
-      .timeout(timeout)
-      .accept('application/json')
-      .send(data);
+        .timeout(timeout)
+        .accept('application/json')
+        .send(data);
 
     if (query) {
       req.query(query);
@@ -59,10 +59,10 @@ export default {
 
   post: (path, data, query, isUseConfigApiRoot) => new Promise((resolve, reject) => {
     const req = request
-      .post(isUseConfigApiRoot ? path : config.apiRoot + path)
-      .timeout(timeout)
-      .accept('application/json')
-      .send(data);
+        .post(isUseConfigApiRoot ? path : config.apiRoot + path)
+        .timeout(timeout)
+        .accept('application/json')
+        .send(data);
 
     if (query) {
       req.query(query);
@@ -79,8 +79,8 @@ export default {
 
   del: (path, query) => new Promise((resolve, reject) => {
     const req = request.del(config.apiRoot + path)
-      .timeout(timeout)
-      .accept('application/json');
+        .timeout(timeout)
+        .accept('application/json');
 
     if (query) {
       req.query(query);
@@ -95,3 +95,7 @@ export default {
     });
   }),
 };
+// export default {
+//
+// };
+module.exports = getMethod;
