@@ -1,5 +1,11 @@
 var express = require('express');
 var router = express.Router();
+var request = require('../api/request');
+var async = require('async');
+
+const urls = {
+    caseApi: 'http://api.vshowdome.com/project/',
+};
 
 /* 首页. */
 router.get('/', function(req, res, next) {
