@@ -156,14 +156,13 @@
 }
 .serviceArt-list .col-sm-4, .serviceArt-list .col-md-3 {
     width: 20%;
+    height: 155px;
     text-align: center;
-    height: 170px;
     position: relative;
     margin-bottom: 20px;
 }
 .serviceArt-list .serviceArt-list-desc {
-    font-size: 16px;
-    text-align: left;
+    font-size: 14px;
     line-height: 24px;
     color: #fff;
     width: 100%;
