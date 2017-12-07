@@ -17,12 +17,16 @@
 .relatebox .relateinfo-img {
     padding-right: 0;
 }
-.relateinfo-imgs {
-    padding-left: 0;
+.relateinfo-imgs, .relateinfo-after {
+    padding-left: 0 !important;
     overflow: hidden;
 }
-.relateinfo-img1, .relate-textbox {
+.relate-textbox {
     padding: 0;
+    overflow: hidden;
+}
+.relateinfo-img1 {
+    padding: 0 !important;
     overflow: hidden;
 }
 .relatebox .relateinfo-img img {
@@ -51,7 +55,7 @@
     line-height: 30px;
 }
 .relateinfo-after {
-    padding: 0;
+    padding: 0 !important;
     overflow: hidden;
 }
 .relateinfo-after img {
