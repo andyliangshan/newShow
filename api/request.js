@@ -27,6 +27,7 @@ const getMethod = {
 
     if (query) {
       req.query(query);
+      console.log(query, '11');
     }
 
     req.end((err, res) => {
@@ -95,7 +96,4 @@ const getMethod = {
     });
   }),
 };
-// export default {
-//
-// };
 module.exports = getMethod;

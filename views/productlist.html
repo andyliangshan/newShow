@@ -68,17 +68,21 @@
     <div class="container">
         <div class="row">
             <ul class="listcont" id="listcont">
+                <% if (data) {%>
                 <li class="col-xs-12 col-sm-6 col-md-6">
                     <a class="firstbig other" href="/detail">
-                        <img src="/public/images/case/1.jpg" alt="" />
+                        <img src="<%= data[0].image%>" alt="" />
                         <div class="showtext">
-                            <h2>马来西亚兰卡威全景的天空球幕</h2>
-                            <p>博物馆&科技馆</p>
-                            <p>2014年6月 马来西亚兰卡威 11米</p>
+                            <h2><%= data[0].title%></h2>
+                            <p><%= data[0].cato%></p>
+                            <p><%= data[0].date%> <%= data[0].location%> <%= data[0].size%>米</p>
                         </div>
                         <div class="showbg"></div>
                     </a>
                 </li>
+                <%for(var i = 1; i < data.length; i++){%>
+                <%}%>
+                <%}%>
                 <li class="col-xs-12 col-sm-6 col-md-6">
                     <a class="img other" href="/detail">
                         <img src="/public/images/case/2.jpg" alt="" />

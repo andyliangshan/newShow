@@ -59,7 +59,57 @@ $(function () {
         e.preventDefault();
         $(this).find('a').css('text-decoration', 'none');
         $(this).find('a').addClass('active').end().siblings().find('a').removeClass('active');
-        var indx = _li.index(this);
+        var idx = _li.index(this);
+        var $cell = $('.casedetaillist-cont .caselist');
+        $cell.eq(idx).addClass('active').siblings().removeClass('active');
+        var allData = $cell.eq(idx).find('.row');
+        if (allData.length <= 5) {
+            $('#loadMore' + idx).hide();
+        } else {
+            $('#loadMore' + idx).show();
+        }
     });
+
+    // 加载更多
+    var showMoreNChildren = function ($children, n) {
+        //显示某jquery元素下的前n个隐藏的子元素
+        var $hiddenChildren = $children.filter(":hidden");
+        var cnt = $hiddenChildren.length;
+        for (var i = 0; i < n && i < cnt ; i++) {
+            $hiddenChildren.eq(i).show();
+        }
+        return cnt - n; // 返回还剩余的隐藏子元素的数量
+    };
+
+    jQuery.showMore = function (selector) {
+        if (selector == 'undefined') { selector = ".caselist0" }
+        $(selector).each(function () {
+            var pagesize = 5;
+            var $children = $(this).children();
+            function exchangeLoadMoreBtn(targetName, loadId) {
+                $('#' + targetName).click(function () {
+                    $('#' + loadId).animate({'opacity': '1'}, 200, function () {
+                        $('#' + loadId).css('opacity', 0);
+                    });
+                    if (showMoreNChildren($children, pagesize) <= 0) {
+                        $(this).hide();
+                    }
+                });
+            }
+            if ($children.length > pagesize) {
+                for (var i = pagesize; i < $children.length; i++) {
+                    $children.eq(i).hide();
+                }
+                exchangeLoadMoreBtn('loadMore0', 'loader0');
+                exchangeLoadMoreBtn('loadMore1', 'loader1');
+                exchangeLoadMoreBtn('loadMore2', 'loader2');
+                exchangeLoadMoreBtn('loadMore3', 'loader3');
+                exchangeLoadMoreBtn('loadMore4', 'loader4');
+                exchangeLoadMoreBtn('loadMore5', 'loader5');
+                exchangeLoadMoreBtn('loadMore6', 'loader6');
+            }
+        });
+    };
+    $.showMore('.caselist0, .caselist1, .caselist2, .caselist3, .caselist4, .caselist5, .caselist6');
 
 });

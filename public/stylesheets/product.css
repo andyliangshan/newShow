@@ -294,6 +294,12 @@
     border-top: 1px solid #f6270b;
     border-bottom: 1px solid #f6270b;
 }
+.caselist {
+    display: none;
+}
+.caselist.active {
+    display: block;
+}
 .caselist-cont {
     clear: both;
     overflow: hidden;
@@ -441,6 +447,7 @@
 .casedetaillist-cont .container {
     background: #fff;
     padding-bottom: 90px;
+    overflow: hidden;
 }
 .casedetaillist-cont .contdetail {
     padding: 0;
@@ -540,6 +547,18 @@
     width: 100%;
     vertical-align: middle;
 }
-
+.loader {
+    clear: both;
+    overflow: hidden;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.loader img {
+    vertical-align: middle;
+    margin: 0 auto;
+}
 
 

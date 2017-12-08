@@ -4,11 +4,11 @@ var request = require('../api/request');
 var async = require('async');
 
 const urls = {
-    caseApi: 'http://api.vshowdome.com/project/',
+    caseApi: 'http://api.vshowdome.com/project/?',
 };
 
 /* 首页. */
-router.get('/', function(req, res, next) {
+router.get('/', async (req, res, next) => {
   try {
     res.render('index',
         {
@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
   }
 });
 
-router.get('/instru', function(req, res, next) {
+router.get('/instru', async (req, res, next) => {
     try {
         res.render('productInstru', {
             title: '产品介绍',
@@ -30,27 +30,43 @@ router.get('/instru', function(req, res, next) {
     }
 });
 
-router.get('/case', function(req, res, next) {
-    try {
-        res.render('productlist', {
-            title: '产品列表',
-        });
-    } catch (err) {
-        next(err);
-    }
-});
+// router.get('/case', async (req, res, next) => {
+//     const caseData = await request.get(urls.caseApi, { }, true);
+//     try {
+//         res.render('productlist', {
+//             title: '产品列表',
+//             data: caseData,
+//         });
+//     } catch (err) {
+//         next(err);
+//     }
+// });
 
-router.get('/detail', function(req, res, next) {
+router.get('/case', async (req, res, next) => {
+    const caseData = await request.get(urls.caseApi, { }, true);
+    const caseData1 = await request.get(urls.caseApi, { cato: '商场活动' }, true);
+    const caseData2 = await request.get(urls.caseApi, { cato: '户外活动' }, true);
+    const caseData3 = await request.get(urls.caseApi, { cato: '品牌推广' }, true);
+    const caseData4 = await request.get(urls.caseApi, { cato: '博物馆&科技馆' }, true);
+    const caseData5 = await request.get(urls.caseApi, { cato: '音乐节&狂欢节' }, true);
+    const caseData6 = await request.get(urls.caseApi, { cato: '展览展会' }, true);
     try {
         res.render('productdetail', {
             title: '产品详情',
+            data: caseData,
+            data1: caseData1,
+            data2: caseData2,
+            data3: caseData3,
+            data4: caseData4,
+            data5: caseData5,
+            data6: caseData6,
         });
     } catch (err) {
         next(err);
     }
 });
 
-router.get('/about', function(req, res, next) {
+router.get('/about', async (req, res, next) => {
     try {
         res.render('about', {
             title: '关于我们',
@@ -60,7 +76,7 @@ router.get('/about', function(req, res, next) {
     }
 });
 
-router.get('/service', function(req, res, next) {
+router.get('/service', async (req, res, next) => {
     try {
         res.render('service', {
             title: '服务介绍',
@@ -70,7 +86,7 @@ router.get('/service', function(req, res, next) {
     }
 });
 
-router.get('/test', function(req, res, next) {
+router.get('/test', async (req, res, next) => {
     try {
         res.render('serviceInstru', {
             title: '服务介绍',
