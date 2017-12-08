@@ -8,7 +8,7 @@ const urls = {
 };
 
 /* 首页. */
-router.get('/', async(req, res, next) => {
+router.get('/', function (req, res, next) {
   try {
     res.render('index',
         {
@@ -20,7 +20,7 @@ router.get('/', async(req, res, next) => {
   }
 });
 
-router.get('/instru', async(req, res, next) => {
+router.get('/instru', function (req, res, next) {
     try {
         res.render('productInstru', {
             title: '产品介绍',
@@ -42,7 +42,7 @@ router.get('/instru', async(req, res, next) => {
 //     }
 // });
 
-router.get('/case', async(req, res, next) => {
+router.get('/case', async function(req, res, next) {
     const caseData = await request.get(urls.caseApi, { }, true);
     const caseData1 = await request.get(urls.caseApi, { cato: '商场活动' }, true);
     const caseData2 = await request.get(urls.caseApi, { cato: '户外活动' }, true);
@@ -66,7 +66,7 @@ router.get('/case', async(req, res, next) => {
     }
 });
 
-router.get('/about', async(req, res, next) => {
+router.get('/about', function (req, res, next) {
     try {
         res.render('about', {
             title: '关于我们',
@@ -76,7 +76,7 @@ router.get('/about', async(req, res, next) => {
     }
 });
 
-router.get('/service', async(req, res, next) => {
+router.get('/service', function (req, res, next) {
     try {
         res.render('service', {
             title: '服务介绍',
@@ -86,7 +86,7 @@ router.get('/service', async(req, res, next) => {
     }
 });
 
-router.get('/test', async(req, res, next) => {
+router.get('/test', function (req, res, next) {
     try {
         res.render('serviceInstru', {
             title: '服务介绍',
