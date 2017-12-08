@@ -27,7 +27,6 @@ const getMethod = {
 
     if (query) {
       req.query(query);
-      console.log(query, '11');
     }
 
     req.end((err, res) => {

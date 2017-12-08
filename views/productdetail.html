@@ -65,38 +65,40 @@
 <!--案例列表-->
 <div class="casedetaillist-cont">
     <div class="container">
-        <div id="caselist" class="caselist active caselist0">
-            <% if (data) {%>
-            <%for(var i = 0; i < data.length; i++){%>
-            <%if(i%2 === 0){%>
-            <div class="row" data-flag="<%= data[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data[i].image%>" alt=""/>
+        <div id="caselist" class="caselist active">
+            <div class="caselist0">
+                <% if (data) {%>
+                <%for(var i = 0; i < data.length; i++){%>
+                <%if(i%2 === 0){%>
+                <div class="row" data-flag="<%= data[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data[i].image%>" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
+                        <h2><%= data[i].title%></h2>
+                        <div class="position"><%= data[i].date%> <%= data[i].location%> <%= data[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data[i].desc%></div>
+                        <div class="mutiline-r"></div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
-                    <h2><%= data[i].title%></h2>
-                    <div class="position"><%= data[i].date%> <%= data[i].location%> <%= data[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data[i].desc%></div>
-                    <div class="mutiline-r"></div>
+                <%} else {%>
+                <div class="row" data-flag="<%= data[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
+                        <h2><%= data[i].title%></h2>
+                        <div class="position"><%= data[i].date%> <%= data[i].location%> <%= data[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data[i].desc%></div>
+                        <div class="mutiline-l"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data[i].image%>" alt=""/>
+                    </div>
                 </div>
+                <%}%>
+                <%}%>
+                <%}%>
             </div>
-            <%} else {%>
-            <div class="row" data-flag="<%= data[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
-                    <h2><%= data[i].title%></h2>
-                    <div class="position"><%= data[i].date%> <%= data[i].location%> <%= data[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data[i].desc%></div>
-                    <div class="mutiline-l"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data[i].image%>" alt=""/>
-                </div>
-            </div>
-            <%}%>
-            <%}%>
-            <%}%>
             <!--预加载图片-->
             <div id="loader0" class="loader"><img src="/public/images/loading.gif" alt="" /></div>
             <!--加载更多按钮箭头-->
@@ -104,38 +106,40 @@
                 <span><img src="/public/images/product/pruduct_detail_loadiing.jpg" alt=""/></span>
             </div>
         </div>
-        <div id="caselist1" class="caselist caselist1">
-            <% if (data1) {%>
-            <%for(var i = 0; i < data1.length; i++){%>
-            <%if(i%2 === 0){%>
-            <div class="row" data-flag="<%= data1[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data1[i].image%>" alt=""/>
+        <div id="caselist1" class="caselist">
+            <div class="caselist1">
+                <% if (data1) {%>
+                <%for(var i = 0; i < data1.length; i++){%>
+                <%if(i%2 === 0){%>
+                <div class="row" data-flag="<%= data1[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data1[i].image%>" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
+                        <h2><%= data1[i].title%></h2>
+                        <div class="position"><%= data1[i].date%> <%= data1[i].location%> <%= data1[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data1[i].desc%></div>
+                        <div class="mutiline-r"></div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
-                    <h2><%= data1[i].title%></h2>
-                    <div class="position"><%= data1[i].date%> <%= data1[i].location%> <%= data1[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data1[i].desc%></div>
-                    <div class="mutiline-r"></div>
+                <%} else {%>
+                <div class="row" data-flag="<%= data1[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
+                        <h2><%= data1[i].title%></h2>
+                        <div class="position"><%= data1[i].date%> <%= data1[i].location%> <%= data1[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data1[i].desc%></div>
+                        <div class="mutiline-l"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data1[i].image%>" alt=""/>
+                    </div>
                 </div>
+                <%}%>
+                <%}%>
+                <%}%>
             </div>
-            <%} else {%>
-            <div class="row" data-flag="<%= data1[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
-                    <h2><%= data1[i].title%></h2>
-                    <div class="position"><%= data1[i].date%> <%= data1[i].location%> <%= data1[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data1[i].desc%></div>
-                    <div class="mutiline-l"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data1[i].image%>" alt=""/>
-                </div>
-            </div>
-            <%}%>
-            <%}%>
-            <%}%>
             <!--预加载图片-->
             <div id="loader1" class="loader"><img src="/public/images/loading.gif" alt="" /></div>
             <!--加载更多按钮箭头-->
@@ -143,38 +147,40 @@
                 <span><img src="/public/images/product/pruduct_detail_loadiing.jpg" alt=""/></span>
             </div>
         </div>
-        <div id="caselist2" class="caselist caselist2">
-            <% if (data2) {%>
-            <%for(var i = 0; i < data2.length; i++){%>
-            <%if(i%2 === 0){%>
-            <div class="row" data-flag="<%= data2[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data2[i].image%>" alt=""/>
+        <div id="caselist2" class="caselist">
+            <div class="caselist2">
+                <% if (data2) {%>
+                <%for(var i = 0; i < data2.length; i++){%>
+                <%if(i%2 === 0){%>
+                <div class="row" data-flag="<%= data2[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data2[i].image%>" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
+                        <h2><%= data2[i].title%></h2>
+                        <div class="position"><%= data2[i].date%> <%= data2[i].location%> <%= data2[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data2[i].desc%></div>
+                        <div class="mutiline-r"></div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
-                    <h2><%= data2[i].title%></h2>
-                    <div class="position"><%= data2[i].date%> <%= data2[i].location%> <%= data2[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data2[i].desc%></div>
-                    <div class="mutiline-r"></div>
+                <%} else {%>
+                <div class="row" data-flag="<%= data2[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
+                        <h2><%= data2[i].title%></h2>
+                        <div class="position"><%= data2[i].date%> <%= data2[i].location%> <%= data2[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data2[i].desc%></div>
+                        <div class="mutiline-l"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data2[i].image%>" alt=""/>
+                    </div>
                 </div>
+                <%}%>
+                <%}%>
+                <%}%>
             </div>
-            <%} else {%>
-            <div class="row" data-flag="<%= data2[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
-                    <h2><%= data2[i].title%></h2>
-                    <div class="position"><%= data2[i].date%> <%= data2[i].location%> <%= data2[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data2[i].desc%></div>
-                    <div class="mutiline-l"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data2[i].image%>" alt=""/>
-                </div>
-            </div>
-            <%}%>
-            <%}%>
-            <%}%>
             <!--预加载图片-->
             <div id="loader2" class="loader"><img src="/public/images/loading.gif" alt="" /></div>
             <!--加载更多按钮箭头-->
@@ -182,38 +188,40 @@
                 <span><img src="/public/images/product/pruduct_detail_loadiing.jpg" alt=""/></span>
             </div>
         </div>
-        <div id="caselist3" class="caselist caselist3">
-            <% if (data3) {%>
-            <%for(var i = 0; i < data3.length; i++){%>
-            <%if(i%2 === 0){%>
-            <div class="row" data-flag="<%= data3[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data3[i].image%>" alt=""/>
+        <div id="caselist3" class="caselist">
+            <div class="caselist3">
+                <% if (data3) {%>
+                <%for(var i = 0; i < data3.length; i++){%>
+                <%if(i%2 === 0){%>
+                <div class="row" data-flag="<%= data3[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data3[i].image%>" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
+                        <h2><%= data3[i].title%></h2>
+                        <div class="position"><%= data3[i].date%> <%= data3[i].location%> <%= data3[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data3[i].desc%></div>
+                        <div class="mutiline-r"></div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
-                    <h2><%= data3[i].title%></h2>
-                    <div class="position"><%= data3[i].date%> <%= data3[i].location%> <%= data3[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data3[i].desc%></div>
-                    <div class="mutiline-r"></div>
+                <%} else {%>
+                <div class="row" data-flag="<%= data3[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
+                        <h2><%= data3[i].title%></h2>
+                        <div class="position"><%= data3[i].date%> <%= data3[i].location%> <%= data3[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data3[i].desc%></div>
+                        <div class="mutiline-l"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data3[i].image%>" alt=""/>
+                    </div>
                 </div>
+                <%}%>
+                <%}%>
+                <%}%>
             </div>
-            <%} else {%>
-            <div class="row" data-flag="<%= data3[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
-                    <h2><%= data3[i].title%></h2>
-                    <div class="position"><%= data3[i].date%> <%= data3[i].location%> <%= data3[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data3[i].desc%></div>
-                    <div class="mutiline-l"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data3[i].image%>" alt=""/>
-                </div>
-            </div>
-            <%}%>
-            <%}%>
-            <%}%>
             <!--预加载图片-->
             <div id="loader3" class="loader"><img src="/public/images/loading.gif" alt="" /></div>
             <!--加载更多按钮箭头-->
@@ -221,38 +229,40 @@
                 <span><img src="/public/images/product/pruduct_detail_loadiing.jpg" alt=""/></span>
             </div>
         </div>
-        <div id="caselist4" class="caselist caselist4">
-            <% if (data4) {%>
-            <%for(var i = 0; i < data4.length; i++){%>
-            <%if(i%2 === 0){%>
-            <div class="row" data-flag="<%= data4[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data4[i].image%>" alt=""/>
+        <div id="caselist4" class="caselist">
+            <div class="caselist4">
+                <% if (data4) {%>
+                <%for(var i = 0; i < data4.length; i++){%>
+                <%if(i%2 === 0){%>
+                <div class="row" data-flag="<%= data4[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data4[i].image%>" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
+                        <h2><%= data4[i].title%></h2>
+                        <div class="position"><%= data4[i].date%> <%= data4[i].location%> <%= data4[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data4[i].desc%></div>
+                        <div class="mutiline-r"></div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
-                    <h2><%= data4[i].title%></h2>
-                    <div class="position"><%= data4[i].date%> <%= data4[i].location%> <%= data4[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data4[i].desc%></div>
-                    <div class="mutiline-r"></div>
+                <%} else {%>
+                <div class="row" data-flag="<%= data4[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
+                        <h2><%= data4[i].title%></h2>
+                        <div class="position"><%= data4[i].date%> <%= data4[i].location%> <%= data4[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data4[i].desc%></div>
+                        <div class="mutiline-l"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data4[i].image%>" alt=""/>
+                    </div>
                 </div>
+                <%}%>
+                <%}%>
+                <%}%>
             </div>
-            <%} else {%>
-            <div class="row" data-flag="<%= data4[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
-                    <h2><%= data4[i].title%></h2>
-                    <div class="position"><%= data4[i].date%> <%= data4[i].location%> <%= data4[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data4[i].desc%></div>
-                    <div class="mutiline-l"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data4[i].image%>" alt=""/>
-                </div>
-            </div>
-            <%}%>
-            <%}%>
-            <%}%>
             <!--预加载图片-->
             <div id="loader4" class="loader"><img src="/public/images/loading.gif" alt="" /></div>
             <!--加载更多按钮箭头-->
@@ -260,38 +270,40 @@
                 <span><img src="/public/images/product/pruduct_detail_loadiing.jpg" alt=""/></span>
             </div>
         </div>
-        <div id="caselist5" class="caselist caselist5">
-            <% if (data5) {%>
-            <%for(var i = 0; i < data5.length; i++){%>
-            <%if(i%2 === 0){%>
-            <div class="row" data-flag="<%= data5[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data5[i].image%>" alt=""/>
+        <div id="caselist5" class="caselist">
+            <div class="caselist5">
+                <% if (data5) {%>
+                <%for(var i = 0; i < data5.length; i++){%>
+                <%if(i%2 === 0){%>
+                <div class="row" data-flag="<%= data5[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data5[i].image%>" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
+                        <h2><%= data5[i].title%></h2>
+                        <div class="position"><%= data5[i].date%> <%= data5[i].location%> <%= data5[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data5[i].desc%></div>
+                        <div class="mutiline-r"></div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
-                    <h2><%= data5[i].title%></h2>
-                    <div class="position"><%= data5[i].date%> <%= data5[i].location%> <%= data5[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data5[i].desc%></div>
-                    <div class="mutiline-r"></div>
+                <%} else {%>
+                <div class="row" data-flag="<%= data5[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
+                        <h2><%= data5[i].title%></h2>
+                        <div class="position"><%= data5[i].date%> <%= data5[i].location%> <%= data5[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data5[i].desc%></div>
+                        <div class="mutiline-l"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data5[i].image%>" alt=""/>
+                    </div>
                 </div>
+                <%}%>
+                <%}%>
+                <%}%>
             </div>
-            <%} else {%>
-            <div class="row" data-flag="<%= data5[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
-                    <h2><%= data5[i].title%></h2>
-                    <div class="position"><%= data5[i].date%> <%= data5[i].location%> <%= data5[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data5[i].desc%></div>
-                    <div class="mutiline-l"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data5[i].image%>" alt=""/>
-                </div>
-            </div>
-            <%}%>
-            <%}%>
-            <%}%>
             <!--预加载图片-->
             <div id="loader5" class="loader"><img src="/public/images/loading.gif" alt="" /></div>
             <!--加载更多按钮箭头-->
@@ -299,38 +311,40 @@
                 <span><img src="/public/images/product/pruduct_detail_loadiing.jpg" alt=""/></span>
             </div>
         </div>
-        <div id="caselist6" class="caselist caselist6">
-            <% if (data6) {%>
-            <%for(var i = 0; i < data6.length; i++){%>
-            <%if(i%2 === 0){%>
-            <div class="row" data-flag="<%= data6[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data6[i].image%>" alt=""/>
+        <div id="caselist6" class="caselist">
+            <div class="caselist6">
+                <% if (data6) {%>
+                <%for(var i = 0; i < data6.length; i++){%>
+                <%if(i%2 === 0){%>
+                <div class="row" data-flag="<%= data6[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data6[i].image%>" alt=""/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
+                        <h2><%= data6[i].title%></h2>
+                        <div class="position"><%= data6[i].date%> <%= data6[i].location%> <%= data6[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data6[i].desc%></div>
+                        <div class="mutiline-r"></div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc">
-                    <h2><%= data6[i].title%></h2>
-                    <div class="position"><%= data6[i].date%> <%= data6[i].location%> <%= data6[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data6[i].desc%></div>
-                    <div class="mutiline-r"></div>
+                <%} else {%>
+                <div class="row" data-flag="<%= data6[i].cato%>">
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
+                        <h2><%= data6[i].title%></h2>
+                        <div class="position"><%= data6[i].date%> <%= data6[i].location%> <%= data6[i].size%></div>
+                        <div class="line"></div>
+                        <div class="desc"><%= data6[i].desc%></div>
+                        <div class="mutiline-l"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
+                        <img src="<%= data6[i].image%>" alt=""/>
+                    </div>
                 </div>
+                <%}%>
+                <%}%>
+                <%}%>
             </div>
-            <%} else {%>
-            <div class="row" data-flag="<%= data6[i].cato%>">
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetaildesc coblist">
-                    <h2><%= data6[i].title%></h2>
-                    <div class="position"><%= data6[i].date%> <%= data6[i].location%> <%= data6[i].size%></div>
-                    <div class="line"></div>
-                    <div class="desc"><%= data6[i].desc%></div>
-                    <div class="mutiline-l"></div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 contdetail">
-                    <img src="<%= data6[i].image%>" alt=""/>
-                </div>
-            </div>
-            <%}%>
-            <%}%>
-            <%}%>
             <!--预加载图片-->
             <div id="loader6" class="loader"><img src="/public/images/loading.gif" alt="" /></div>
             <!--加载更多按钮箭头-->

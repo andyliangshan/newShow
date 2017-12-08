@@ -5,5 +5,5 @@
     "stage-0",
     "stage-3"
   ],
-  "plugins": ["transform-es2015-arrow-functions"]
+  "plugins": ["transform-es2015-arrow-functions", "syntax-async-functions"]
 }

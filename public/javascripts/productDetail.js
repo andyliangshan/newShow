@@ -55,6 +55,7 @@ $(function () {
 
     // 案例切换
     var _li = $('.ullidetail li');
+    $('#loadMore0').show();
     _li.click(function (e) {
         e.preventDefault();
         $(this).find('a').css('text-decoration', 'none');
