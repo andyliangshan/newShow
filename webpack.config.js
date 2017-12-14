@@ -3,6 +3,8 @@ var glob = require('glob')
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
+var isDebug = !process.argv.includes('--release');
+var cdn = isDebug ? '' : 'http://op1szwr44.bkt.clouddn.com';
 //路径是相对于package.json所在路径
 var entry_map = {
     'index': './public/javascripts/index.js',
@@ -21,12 +23,17 @@ var webpackConfig = {
         path: path.resolve(process.cwd(), 'dist/'),
         //[name]-[hash].js可以指定hash值。
         filename: '[name][hash].js',
+        publicPath: `${cdn}/dist/js/`,
     },
     plugins: [
         // new ExtractTextPlugin("[name][hash].css"),
         new ExtractTextPlugin({
             filename: path.posix.join('static', 'css/[name]-extract.[contenthash].css')
-        })
+        }),
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': isDebug ? '"development"' : '"production"',
+            __CDN__: isDebug ? '""' : '" "',
+        }),
     ],
     module: {
         loaders: [
