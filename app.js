@@ -29,7 +29,7 @@ const staticDir = path.join(__dirname, 'public');
 // app.use(favicon(path.join(__dirname, 'public', '/images/favicon.ico')));
 app.use(compression());
 console.log(__dirname, '---------');
-app.use(favicon(__dirname + '/public/images/32*32.ico'));
+app.use(favicon(__dirname + '/public/images/32*32log.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json()); // json类型的body数据
 app.use(bodyParser.urlencoded({ extended: false })); // string 类型
