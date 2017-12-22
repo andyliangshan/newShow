@@ -4,7 +4,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 var isDebug = !process.argv.includes('--release');
-var cdn = isDebug ? '' : 'http://op1szwr44.bkt.clouddn.com';
+var cdn = isDebug ? '' : '';
 //路径是相对于package.json所在路径
 var entry_map = {
     'index': './public/javascripts/index.js',
