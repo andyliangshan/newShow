@@ -52,7 +52,7 @@ router.get('/case', async function(req, res, next) {
     const caseData6 = await request.get(urls.caseApi, { cato: '展览展会' }, true);
     try {
         res.render('productdetail', {
-            title: '产品详情',
+            title: '成功案例',
             data: caseData,
             data1: caseData1,
             data2: caseData2,
@@ -69,7 +69,7 @@ router.get('/case', async function(req, res, next) {
 router.get('/about', function (req, res, next) {
     try {
         res.render('about', {
-            title: '关于我们',
+            title: '联系我们',
         });
     } catch (err) {
         next(err);
