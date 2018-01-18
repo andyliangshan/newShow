@@ -47,8 +47,8 @@ router.get('/case', async function(req, res, next) {
     const caseData1 = await request.get(urls.caseApi, { cato: '商场活动' }, true);
     const caseData2 = await request.get(urls.caseApi, { cato: '户外活动' }, true);
     const caseData3 = await request.get(urls.caseApi, { cato: '品牌推广' }, true);
-    const caseData4 = await request.get(urls.caseApi, { cato: '博物馆&科技馆' }, true);
-    const caseData5 = await request.get(urls.caseApi, { cato: '音乐节&狂欢节' }, true);
+    const caseData4 = await request.get(urls.caseApi, { cato: '博物馆和科技馆' }, true);
+    const caseData5 = await request.get(urls.caseApi, { cato: '音乐节和狂欢节' }, true);
     const caseData6 = await request.get(urls.caseApi, { cato: '展览展会' }, true);
     try {
         res.render('productdetail', {
